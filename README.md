@@ -3,20 +3,6 @@ Quantum Shor's Algorithm for Integer Factorization
 
     shors_algorithm.py: The main Python script implementing Shor's algorithm using Qiskit and IBM's quantum services.
 
-Setup
-
-pip install -r requirements.txt
-
-Set up IBM Quantum API Key:
-
-    Sign up for an IBM Quantum account at IBM Quantum.
-    Create a .env file in the root directory of the repository and add the following:
-
-        IBM_QUANTUM_API_KEY=your_api_key_here
-
-    Run the Script:
-        Once the setup is complete, you can run the script shors_algorithm.py to execute the quantum circuit and factor the number 15.
-        The script will output the measurement results and display a bar chart showing the probability distribution of the results.
 
 Results
 
