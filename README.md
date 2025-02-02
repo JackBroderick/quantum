@@ -1,12 +1,6 @@
 
 Quantum Shor's Algorithm for Integer Factorization
 
-This repository contains an implementation of Shor's Algorithm using Qiskit and IBM's quantum hardware. The algorithm is designed to factor integers, leveraging quantum computing's potential for solving problems that are classically difficult, such as integer factorization.
-
-Shor's Algorithm is a quantum algorithm that efficiently factors large numbers in polynomial time, which is significantly faster than classical methods.
-
-This repository specifically factors the number N = 15 using a = 7 as the base 
-
     shors_algorithm.py: The main Python script implementing Shor's algorithm using Qiskit and IBM's quantum services.
 
 Setup
