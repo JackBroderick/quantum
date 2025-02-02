@@ -2,7 +2,6 @@
 Quantum Shor's Algorithm for Integer Factorization
 
 This repository contains an implementation of Shor's Algorithm using Qiskit and IBM's quantum hardware. The algorithm is designed to factor integers, leveraging quantum computing's potential for solving problems that are classically difficult, such as integer factorization.
-Overview
 
 Shor's Algorithm is a quantum algorithm that efficiently factors large numbers in polynomial time, which is significantly faster than classical methods. The algorithm's core idea is based on quantum phase estimation, which helps find the period of a modular exponentiation function. Once the period is found, it is used to calculate the factors of the given number.
 
