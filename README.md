@@ -6,8 +6,7 @@ Overview
 
 Shor's Algorithm is a quantum algorithm that efficiently factors large numbers in polynomial time, which is significantly faster than classical methods. The algorithm's core idea is based on quantum phase estimation, which helps find the period of a modular exponentiation function. Once the period is found, it is used to calculate the factors of the given number.
 
-This repository specifically factors the number N = 15 using a = 7 as the base for the modular exponentiation axmod  15axmod15. The quantum circuit applies modular exponentiation, the Inverse Quantum Fourier Transform (QFT†), and measures the results to extract the period, which is used to find the factors of 15.
-Files in this Repository
+This repository specifically factors the number N = 15 using a = 7 as the base 
 
     shors_algorithm.py: The main Python script implementing Shor's algorithm using Qiskit and IBM's quantum services.
 
